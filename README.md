@@ -2,6 +2,74 @@
 
 Esse **repositório** tem a finalidade de documentar o processo para o aprendizado em Backend.
 
+```mermaid
+flowchart TD
+    A[1. Introdução ao Backend] --> B[2. Fundamentos Inegociáveis]
+    B --> C[3. Arquiteturas do Backend]
+    C --> D[4. Linguagens de Programação]
+    D --> E[5. APIs]
+    E --> F[6. Bancos de Dados]
+    F --> G[7. Otimização e Segurança]
+    G --> H[8. Ferramentas e Próximos Passos]
+
+    A --> A1[O que é Backend]
+    A --> A2[Responsabilidades]
+
+    B --> B1[Cliente-Servidor]
+    B --> B2[HTTP/HTTPS]
+    B --> B3[Infraestrutura Web]
+    B3 --> B31[Lógica de Programação]
+    B3 --> B32[DNS e Domínios]
+    B3 --> B33[Servidores]
+    B3 --> B34[Algoritmos]
+    B3 --> B35[Hospedagem]
+    B3 --> B36[Estruturas de Dados]
+
+    C --> C1[Arquitetura Monolítica]
+    C --> C2[Microsserviços]
+    C --> C3[Serverless]
+    C --> C4[Orientada a Eventos]
+
+    D --> D1[Python]
+    D --> D2[Node.js]
+    D --> D3[Java]
+    D --> D4[Go]
+    D --> D5[Outras Linguagens]
+    D --> D6[Critérios de Escolha]
+
+    E --> E1[REST]
+    E --> E2[GraphQL]
+
+    F --> F1[Bancos Relacionais - SQL]
+    F --> F2[Bancos NoSQL]
+    F2 --> F21[Documento - MongoDB]
+    F2 --> F22[Chave-Valor - Redis]
+    F2 --> F23[Colunar - Cassandra]
+    F2 --> F24[Grafo - Neo4j]
+    F --> F3[Escolha Ideal]
+
+    G --> G1[Otimização de Performance]
+    G1 --> G11[Gerenciamento de Estado]
+    G1 --> G12[Cache]
+    G1 --> G13[Otimização de Consultas]
+    G1 --> G14[Balanceamento de Carga]
+    G --> G2[Segurança no Backend]
+    G2 --> G21[Prevenção de Injeção SQL]
+    G2 --> G22[Proteção XSS]
+    G2 --> G23[Autenticação e Autorização]
+
+    H --> H1[Controle de Versão]
+    H --> H2[Ambiente de Desenvolvimento]
+    H --> H3[Testes]
+    H --> H4[Monitoramento]
+    H --> H5[Recursos de Aprendizado]
+    H --> H6[Próximos Passos]
+    H6 --> H61[Projetos Práticos]
+    H6 --> H62[Contribuir com Open Source]
+    H6 --> H63[Aprender DevOps]
+    H6 --> H64[Manter-se Atualizado]
+
+```
 
 # Roadmap 
 
