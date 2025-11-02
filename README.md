@@ -4,14 +4,26 @@ Esse **repositório** tem a finalidade de documentar o processo para o aprendiza
 
 ```mermaid
 flowchart TD
-    A[1. Introdução ao Backend] --> B[2. Fundamentos Inegociáveis]
-    B --> C[3. Arquiteturas do Backend]
-    C --> D[4. Linguagens de Programação]
-    D --> E[5. APIs]
-    E --> F[6. Bancos de Dados]
-    F --> G[7. Otimização e Segurança]
-    G --> H[8. Ferramentas e Próximos Passos]
+    %% --- Definição de cores ---
+    classDef inicio fill:#A7C7E7,stroke:#2E5C9A,color:#000,font-weight:bold
+    classDef fundamentos fill:#C5E1A5,stroke:#558B2F,color:#000
+    classDef arquiteturas fill:#FFE082,stroke:#F9A825,color:#000
+    classDef linguagens fill:#FFAB91,stroke:#D84315,color:#000
+    classDef apis fill:#CE93D8,stroke:#6A1B9A,color:#000
+    classDef bancos fill:#81D4FA,stroke:#0277BD,color:#000
+    classDef seguranca fill:#A5D6A7,stroke:#2E7D32,color:#000
+    classDef ferramentas fill:#E6EE9C,stroke:#9E9D24,color:#000
 
+    %% --- Estrutura do Roadmap ---
+    A[1. Introdução ao Backend]:::inicio --> B[2. Fundamentos Inegociáveis]:::fundamentos
+    B --> C[3. Arquiteturas do Backend]:::arquiteturas
+    C --> D[4. Linguagens de Programação]:::linguagens
+    D --> E[5. APIs]:::apis
+    E --> F[6. Bancos de Dados]:::bancos
+    F --> G[7. Otimização e Segurança]:::seguranca
+    G --> H[8. Ferramentas e Próximos Passos]:::ferramentas
+
+    %% --- Subtópicos Principais ---
     A --> A1[O que é Backend]
     A --> A2[Responsabilidades]
 
@@ -40,23 +52,16 @@ flowchart TD
     E --> E1[REST]
     E --> E2[GraphQL]
 
-    F --> F1[Bancos Relacionais - SQL]
-    F --> F2[Bancos NoSQL]
-    F2 --> F21[Documento - MongoDB]
-    F2 --> F22[Chave-Valor - Redis]
-    F2 --> F23[Colunar - Cassandra]
-    F2 --> F24[Grafo - Neo4j]
+    F --> F1[SQL]
+    F --> F2[NoSQL]
+    F2 --> F21[MongoDB]
+    F2 --> F22[Redis]
+    F2 --> F23[Cassandra]
+    F2 --> F24[Neo4j]
     F --> F3[Escolha Ideal]
 
     G --> G1[Otimização de Performance]
-    G1 --> G11[Gerenciamento de Estado]
-    G1 --> G12[Cache]
-    G1 --> G13[Otimização de Consultas]
-    G1 --> G14[Balanceamento de Carga]
     G --> G2[Segurança no Backend]
-    G2 --> G21[Prevenção de Injeção SQL]
-    G2 --> G22[Proteção XSS]
-    G2 --> G23[Autenticação e Autorização]
 
     H --> H1[Controle de Versão]
     H --> H2[Ambiente de Desenvolvimento]
@@ -65,7 +70,7 @@ flowchart TD
     H --> H5[Recursos de Aprendizado]
     H --> H6[Próximos Passos]
     H6 --> H61[Projetos Práticos]
-    H6 --> H62[Contribuir com Open Source]
+    H6 --> H62[Open Source]
     H6 --> H63[Aprender DevOps]
     H6 --> H64[Manter-se Atualizado]
 
