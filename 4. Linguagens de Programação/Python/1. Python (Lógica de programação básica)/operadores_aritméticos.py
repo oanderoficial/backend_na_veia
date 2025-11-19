@@ -19,18 +19,28 @@ class operador:
                 total = preco_unitario * quantidade
                 print(f' O total é de: {total:.1f}')
 
-            if op == "2":
+            elif op == "2":
                 nota1 = float(input("Digite a primeira nota:"))
                 nota2 = float(input("Digite a Segunta nota:"))
                 nota3 = float(input("Digite a terceira nota:"))
                 media = (nota1 + nota2 + nota3) / 3
                 print(f' A Sua média é de: {media:.1f}')
 
-            if op == "3":
+            elif op == "3":
                 minutos = int(input("Digite a quantidade em minutos:")) 
                 horas = minutos // 60  # divisão inteira
                 resto_minutos = minutos % 60
                 print(horas, "h", resto_minutos, "min")
+
+            elif op == "4":
+                base = 2
+                expoente = 5
+                resultado = base ** expoente
+                print(resultado)  # 32
+
+            elif op == "5":
+                print("saindo...")
+                break
 
             
 if __name__ == "__main__":
