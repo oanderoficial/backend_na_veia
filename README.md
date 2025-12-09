@@ -2,6 +2,9 @@
 
 Esse **repositório** tem a finalidade de documentar o processo para o aprendizado em Backend.
 
+<strong> Esse projeto tem a finalidade de organizar e mostrar exemplos do processo de desenvolvimento voltado ao Backend, o repositório ainda está em construção, sendo atualizado periodicamente.  </strong>
+
+
 ```mermaid
 flowchart TD
     %% --- Definição de cores ---
